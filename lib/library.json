@@ -19,8 +19,11 @@
     "build": {
         "libArchive": false,
 		"flags": [
-			"-ILEDctrl",
 			"-IOTAlib"
 		]
-    }
+    },
+    "examples": [
+        "EDU/LEDctrl.h",
+        "EDU/LEDctrl.cpp"
+    ]
 }
