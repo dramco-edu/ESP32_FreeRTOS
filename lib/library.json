@@ -15,5 +15,12 @@
     },
     "version": "1.0.0",
     "homepage": "https://github.com/dramco-edu/ESP32_FreeRTOS",
-    "frameworks": "Arduino"
+    "frameworks": "Arduino",
+    "build": {
+        "libArchive": false,
+		"flags": [
+			"-ILEDctrl",
+			"-IOTAlib"
+		]
+    }
 }
