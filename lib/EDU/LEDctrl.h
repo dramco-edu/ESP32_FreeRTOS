@@ -33,7 +33,7 @@ class LEDctrl
     public:
         LEDctrl(uint8_t pin);
 
-        void begin(QueueHandle_t ctrlQueue);
+        void begin(QueueHandle_t ctrlQueue=NULL);
 };
 
 #endif /*__LEDCTRL_H__*/
